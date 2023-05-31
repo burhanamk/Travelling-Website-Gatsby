@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_section2s",
+  "info": {
+    "singularName": "about-section2",
+    "pluralName": "about-section2s",
+    "displayName": "about_section2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titlMain": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
